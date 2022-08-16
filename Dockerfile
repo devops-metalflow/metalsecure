@@ -9,5 +9,5 @@ FROM gcr.io/distroless/base-debian11 AS production-stage
 WORKDIR /
 COPY --from=build-stage /go/src/app/bin/metalsecure /
 USER nonroot:nonroot
-EXPOSE 29090
+EXPOSE 19094
 CMD ["/metalsecure", "--listen-url=:19094"]
