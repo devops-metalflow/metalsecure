@@ -4,7 +4,7 @@ import (
 	"context"
 	"os"
 
-	"github.com/devops-metaflow/metalsecure/cmd"
+	"github.com/devops-metalflow/metalsecure/cmd"
 )
 
 func main() {
